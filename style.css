@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    /* position: relative; */
+}
+html{
+    font-size: 100%;
+}
+
+.px-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.py-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav{
+    width: 100%;
+    /* display: none; */
+}
+.logo{
+    display: flex;
+    width: 5rem;
+    padding-left: 0.6rem;
+}
+#myntra-logo-top{
+    width: 100%;
+    height: auto;
+}
+.nav-invite{
+    /* display: none; */
+}
+#menu-bar{
+    display: none;
+}
+
+.nav-bar{
+    min-height: 4rem;
+    
+}
+.right .action{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    font-size: 0rem;
+    padding: 0rem 1rem
+}
+.right .action button{
+    padding: 1rem 0rem;
+    width: 4rem;
+    
+    outline: none;
+    border: none;
+    background: none;
+}
+.right .action button i{
+    /* padding: 1rem 0rem; */
+    color: #696e79;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.right .action button ion-icon{
+    /* padding: 1rem 0rem; */
+    color: #696e79;
+    font-size: 1.5rem;
+}
+#new{
+    font-size: 0.7rem;
+    color: #ff3f6c;
+    font-weight: bold;
+}.search-bar{
+    width: 54%;
+    display: flex;
+}
+.search-bar i{
+    box-sizing: content-box;
+    display: inline-block;
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: #696e79;
+    cursor: pointer;
+}
+.search-bar input{
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 95%;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+.s2{
+    padding: 1rem 0rem;
+    gap: 1rem;
+    font-size: 0.8rem;
+    background-color: #e4ecff;
+    background: linear-gradient(to right, white, #dfe9ff);
+}
+.s2-btn{
+    
+    background-color: transparent;
+    border: 0.6px solid #c9dafd;
+    border-radius: 3px;
+    padding: 0.2rem 0.9rem;
+    color: #ff3f6c;
+    font-weight: bold;
+}
+.s2-banner{
+    /* display: none; */
+    right: 0;
+    position: fixed;
+    bottom: 230px;
+    width: 44px;
+    height: 220px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.s2-bar{
+    /* position: absolute; */
+    width: 0;
+    height: 0;
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+.s2-txt{
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+}
+
+.responsive-fluid img{
+    width: 100%;
+    height: auto;
+}
+
+.img-section{
+    width: 100%;
+}
+
+.itemImg{
+    width: 10%;
+}
+.omg-Img{
+    width: 100%;
+}
+
+.section-data{
+    color: #94969F;
+}
+
+#footer{
+    background-color: #FAFBFC;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: none;
+}
+.text-myntra{
+    width: 80%;
+    /* align-items: center; */
+}
+.myntra-link{
+    /* padding: 1rem 1rem; */
+    font-size: 0.9rem;
+}
+.font-sm{
+    font-size: 0.9rem;
+}
+.online-shopping{
+    /* background-color: red; */
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: start;
+}
+.online-shopping p{
+    /* gap: .8rem; */
+    padding: .7rem 0rem;
+}
+
+.online-shopping a{
+    padding: .2rem 0rem;
+}
+.customerPolicies{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: start;
+}
+.customerPolicies p{
+    /* gap: .8rem; */
+    padding: .85rem 0rem;
+}
+
+.customerPolicies a{
+    padding: .2rem 0rem;
+}
+
+.appExperience{
+    width: 34%;
+}
+
+.appExperience p{
+    /* gap: .8rem; */
+    padding: .85rem 0rem;
+}
+.appExperience img{
+    margin: 1rem .2rem;
+}
+#desktop-facebook{
+    width: 1rem;
+    height: 1rem;
+}
+#desktop-twitter{
+    width: 1rem;
+    height: 1rem;
+}
+#desktop-youtube{
+    width: 1rem;
+    height: 1rem;
+}
+#desktop-instagram{
+    width: 1rem;
+    height: 1rem;
+}
+.promises{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.9rem 0;
+}
+.promises-div{
+    display: flex;
+    font-size: 0.9rem;
+    width: 17rem;
+    /* background-color: red; */
+    gap: 0.6rem;
+}
+.promises-div-1{
+    display: flex;
+    font-size: 0.9rem;
+    width: 18rem;
+    /* background-color: red; */
+    gap: 0.6rem;
+}
+#desktop-keepInTouch{
+    display: flex;
+    min-height: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#desktop-keepInTouch div{
+    width: auto;
+    height: auto;
+}
+
+.footer-details{
+    gap: 1rem;
+}
+
+@media screen and (max-width:1180px){
+    
+    #search-input::placeholder{
+    font-size: .8rem;
+}
+}
+
+@media screen and (max-width:950px){
+    body{
+        /* background-color: rgba(0, 128, 0, 0.329); */
+    }
+    html{
+        font-size: 80%;
+    }
+    #search-input::placeholder{
+        font-size: .8rem;
+    }
+}
+
+
+@media screen and (max-width:750px){
+    body{
+        /* background-color: rgba(0, 128, 0, 0.329); */
+    }
+    html{
+        font-size: 75%;
+    }
+    #nav-pad{
+        height: 3.5rem;
+        
+    }
+    .left{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px 0;
+    }
+    #myntra-logo-top{
+        width: 5rem;
+    }
+
+    #menu-bar{
+        display: block;
+        /* width: 5rem; */
+        font-size: 2rem;
+    }
+    .nav-invite{
+        /* margin-top: 13rem; */
+    }
+    .s2-banner{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .important{
+        flex-direction: column;
+    }
+    .important .online-shopping{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .important .online-shopping a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .important .online-shopping p{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .important .customerPolicies{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .important .customerPolicies a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .important .customerPolicies p{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .important .appExperience{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .important .appExperience a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .important .appExperience p{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .important .promises{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .important .promises a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .important .promises p{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 3rem;
+        height: 5rem;
+        
+    }
+    .right{
+        display: none;
+    }
+    ul{
+        flex-direction: column;
+        gap: 1rem;
+        transform: translateX(-800px);
+        transition: ease-in;
+        transition-duration: 100ms;
+        padding: 0;
+    }
+    .px-1{
+        padding: 0;
+    }
+    .move-down{
+        transform: translateX(0px);
+        transition-duration: .3s;
+        background-color: white;
+        padding: 1rem 0;
+    }
+    #new{
+        display: none;
+    }
+
+    .container-f{
+        box-shadow: none;
+    }
+    .left{
+        width: 100%;
+    }
+}
